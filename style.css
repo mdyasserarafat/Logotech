@@ -1,0 +1,367 @@
+/* Css Rules to specify Fonts
+
+font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* First Navbar  */
+.navbar {
+    overflow: hidden;
+    /* background-color: #666666; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.navbar-brand{
+    padding-right: 10vw;
+    padding-left: 25px;
+}
+@media(max-width:333px){
+    .navbar-brand{
+        padding-right: 0;
+        padding-left: 10px; 
+    }
+    }
+@media(max-width:333px){
+.navbrand-img{
+    height: 46px!important;
+}
+}
+
+@media(max-width:333px){
+    .nav-margin-small{
+        margin-bottom: 5px;
+    }
+}
+
+.me-auto {
+    margin-right: auto!important;
+    margin-left: auto;
+    flex-wrap: wrap!important;
+}
+.nav-link {
+    padding: 0 25px!important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width:992px){
+    .nav-link {
+        padding: 8px 25px!important;
+    }
+}
+
+/* Second Navbar */
+
+.nav-color {
+    color: #fff!important;
+    font-weight: 500;
+    padding: 0 2.6vw!important;
+}
+
+@media(max-width:764px){
+    .nav-color{
+        padding: 1vw 2.6vw!important;
+    }
+    
+}
+@media(max-width:500px){
+    .nav-color{
+        font-size: 4vw;
+    }
+    
+}
+.dropdown-item{
+    color: red;
+    font-weight: 500;
+}
+.nested-link{
+    text-decoration: none!important;
+    color: black;
+}
+.nav{
+    position: relative;
+    z-index: 100;
+    margin-top: 76px;
+}
+
+
+
+/* home-background */
+
+.home-heading {
+    position: absolute;
+    color:#fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5vw;
+    font-weight: 900;
+    margin: 11%;
+    margin-left: 15%;
+    z-index: 10;
+}
+
+@media (max-width:500px){
+    .home-heading{
+        font-size: 10vw;
+        margin-top: 18%;
+        margin-left: 12%;
+    }
+}
+
+@media(max-width: 600px)
+    {
+        .background-image
+        {
+            content:url(images/woolen-crop-by-ai.jpg);
+        }
+
+    }
+
+
+
+/* About Us Section */
+
+.about-us{
+    background-color: #EEEEEE;   /* #d8d9da */
+}
+
+.world-image{
+    background-color: black;
+}
+
+@media (min-width: 767px){
+    .world-image{
+        height: 300px;
+        width: 650px;
+    }
+}
+
+.lead {
+    font-size: 1.20rem;
+    font-weight: 300;
+    text-align: justify;
+}
+
+/* Why Us  */
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+}
+.why-us{
+    font-weight: 700;
+}
+
+/* Career */
+
+.cwu{
+    color: #db1a0d;
+    text-align: center;
+}
+.wwu{
+    width: 44%;
+    margin-right: 4.45vw;
+}
+@media(max-width: 500px){
+    .wwu{
+        width: 100%;
+    }
+   
+}
+#career{
+    background-color:#EEEEEE;
+}
+.dev-image{
+    width:50%;
+    /* float: left; */
+    margin-right: 30px;
+}
+@media (max-width: 576px){
+    .dev-image{
+        display:none;
+    }
+}
+@media (min-width: 576px) and (max-width:768px){
+    .dev-image{
+        width: 100%;
+        margin-top: 50px;
+        margin-left: -30px;
+    }
+}
+@media (min-width: 768px) and (max-width:992px){
+    .dev-image{
+        width: 70%;
+        margin-top: 45px;
+    }
+}
+@media (min-width: 992px) and (max-width:1200px){
+    .dev-image{
+        width: 50%;
+        margin-top: 12px;
+    }
+}
+@media (min-width: 1200px) and (max-width:1400px){
+    .dev-image{
+        width: 42%;
+        margin-top: 12px;
+    }
+}
+@media (min-width: 1400px){
+    .dev-image{
+        width: 29%;
+        margin-top: 10px;
+    }
+}
+
+/* Testimonials */
+
+#testimonials {
+    background-color: #435B66; /* #435B66, 9E9FA5 */
+    color: #fff;
+    text-align: center;
+    /* padding: 10% 7%; */
+  }
+  
+  .testimonial-text{
+    text-align: center;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+ }
+  .testimony{
+    padding: 7% 15%;
+  }
+  
+  @media (max-width: 767px){
+    .testimonial-text{
+        font-size: 1rem;
+    }
+    .location{
+        font-size: 0.7rem;
+    }
+  }
+  @media (min-width: 767px) and (max-width: 1024px){
+    .testimonial-text{
+        font-size: 1.5rem;
+    }
+    .location{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+  }
+  @media (min-width: 1024px) {
+    .testimonial-text{
+        font-size: 2rem;
+    }
+    .location{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+  }
+  /* @media (min-width: 1440px){
+    .testimonial-text{
+        font-size: 3rem;
+    }
+  } */
+  /* .testimonial-image {
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+    padding: 10% 7%;
+  } */
+
+  /* Press */
+  #press {
+    background-color: #435B66;
+    padding-bottom: 3%;
+    text-align: center;
+  }
+  @media(min-width: 1400px){
+  .press-logo {
+    height: 80px;
+    margin: 20px 80px 50px;
+  }
+}
+  @media(min-width: 1024px) and (max-width:1400px){
+    .press-logo {
+      height: 70px;
+      margin: 20px 50px 50px;
+    }
+}
+  @media(min-width: 767px) and (max-width:1024px){
+    .press-logo {
+      height: 60px;
+      margin: 20px 30px 50px;
+    }
+}
+  @media(max-width: 767px){
+    .press-logo {
+      height: 30px;
+      margin: 20px 9px 50px;
+    }
+}
+  /* .carousel-item {
+    padding: 7% 15%;
+  } */
+  
+
+/* Footer */
+#footer{
+    background-color: #d8d9da;
+}
+
+  /* Logo-Footer */
+#logo{
+    background-color: #d8d9da;
+}
+
+
+/* Check */
+
+.check{
+    height: 1500px;
+    background-color: aqua;
+}
+
+/* .row .col {
+    height: 100px;
+} */
+
+
+.custom-popover {
+    --bs-popover-max-width: 50rem;
+    --bs-popover-header-bg: #d8d9da;
+    --bs-popover-body-bg: #EEEEEE;
+    --bs-popover-border-color: violet;
+    --bs-popover-header-bg: black;
+    --bs-popover-header-color: white;
+    --bs-popover-header-padding-x: 0.5rem;
+    --bs-popover-header-padding-y: 1rem;
+    --bs-popover-body-padding-x: 1rem;
+    --bs-popover-body-padding-y: .5rem;
+    --bs-popover-arrow-width: 0rem;
+    margin-top: 100px!important;
+    text-align: center;
+}
+  
+.modal-header{
+    background-color: #102c57;
+    color: #fff;
+   
+}
+.modal-body{
+    background-color: #d8d9da;
+    font-size: large;
+    text-align: justify;
+}
+.modal-content{
+    border-radius: 1rem;
+}
