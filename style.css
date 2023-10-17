@@ -1,14 +1,21 @@
 /* Css Rules to specify Fonts
 
+font-family: 'Khand', sans-serif;
 font-family: 'Lato', sans-serif;
 font-family: 'Merriweather', serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Quicksand', sans-serif;
 font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
 font-family: 'Ubuntu', sans-serif; */
 
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Montserrat", sans-serif;
 }
 
 /* First Navbar  */
@@ -49,7 +56,8 @@ body{
 }
 .nav-link {
     padding: 0 25px!important;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 600;
 }
 
 @media (max-width:992px){
@@ -62,6 +70,7 @@ body{
 
 .nav-color {
     color: #fff!important;
+    font-family: 'roboto', sans-serif;
     font-weight: 500;
     padding: 0 2.6vw!important;
 }
@@ -112,7 +121,7 @@ body{
 .home-heading {
     position: absolute;
     color:#fff;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'montserrat', sans-serif;
     font-size: 5vw;
     font-weight: 900;
     margin: 11%;
@@ -487,8 +496,16 @@ footer {
     display: inline-block;
 }
 
+@media(max-width:500px){
+    .term{
+        display:block;
+        padding-top: 5px;
+
+    }
+}
+
 a {
-    color: #102C57;
+    color: #102C57; /* #102C57 */
     text-decoration: none;
     background-color: transparent;
 }
@@ -498,10 +515,10 @@ a {
     align-items: center!important;
 }
 
-::selection {
-    background-color: #f5ba4b;
+/* ::selection {
+    background-color: #18122B;  
     color: #fff;
-}
+} */
 .list-inline {
     padding-left: 0;
     list-style: none;
@@ -522,7 +539,7 @@ a {
 } */
 
 .bi:hover {
-    color: #e79b0d;;
+    color: #F99417; /* #e79b0d */
 }
 
 ul {
