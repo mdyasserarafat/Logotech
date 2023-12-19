@@ -122,7 +122,8 @@ h1,h2,h3,h4,h5,h6 {
     position: absolute;
     color:#fff;
     font-family: 'montserrat', sans-serif;
-    font-size: 5vw;
+    font-size: 4.4vw;
+    line-height: inherit;
     font-weight: 900;
     margin: 11%;
     margin-left: 15%;
@@ -132,6 +133,7 @@ h1,h2,h3,h4,h5,h6 {
 @media (max-width:500px){
     .home-heading{
         font-size: 10vw;
+        line-height: inherit;
         margin-top: 18%;
         margin-left: 12%;
     }
