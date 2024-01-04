@@ -108,9 +108,71 @@ h1,h2,h3,h4,h5,h6 {
 }
 .modal-body{
     background-color: #d8d9da;
-    font-size: large;
+    font-size: x-large;
     text-align: justify;
+    margin-top: -1px;
 }
+@media (max-width: 992px){
+    .modal-body{
+        font-size: large;
+    }
+}
+.modalPeople{
+    background-image: url(./images/website\ image\ 1.jpg);
+    color: #fff;
+}
+.modalPartnership{
+    background-image: url(./images/pexels-andrea-piacquadio-3830752.jpg);
+    color: #fff;
+}
+@media (max-width: 992px){
+    .modalPartnership{
+        background-image: url(./images/pexels-andrea-piacquadio-crop.jpg);
+    }
+}
+.modalPlanet{
+    background-image: url(./images/pexels-marina-lite.jpg);
+    color: #fff;
+}
+@media (max-width: 1200px){
+    .modalPlanet{
+        background-image: url(./images/pexels-rdne-stock-project-6936078.jpg);
+    }
+}
+.modalProcess{
+    background-image: url(./images/fashion-designer-mdl2.jpg);
+    color: #fff;
+}
+@media (max-width: 992px){
+    .modalProcess{
+        background-image: url(./images/fashion-designer-modal.jpg);
+    }
+}
+.modalPurpose{
+    background-image: url(./images/creative-woman-modal.jpg);
+    color: #fff;
+}
+@media (max-width: 992px){
+    .modalPurpose{
+        background-image: url(./images/creative-woman-modal-crop.jpg);
+    }
+}
+.modalProfit{
+    background-image: url(./images/pexels-tima-miroshnichenko-6693655.jpg);
+    color: #fff;
+}
+@media (max-width: 992px){
+    .modalProfit{
+        background-image: url(./images/pexels-tima-miroshnichenko-crop.jpg);
+    }
+}
+/* .modal-body{
+    font-size: 20px;
+    text-align: justify;
+    position: absolute;
+    top: 50px;
+    color: #d8d9da;
+} */
 .modal-content{
     border-radius: 1rem;
 }
