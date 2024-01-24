@@ -118,52 +118,57 @@ h1,h2,h3,h4,h5,h6 {
     }
 }
 .modalPeople{
-    background-image: url(./images/website\ image\ 1.jpg);
+    background-image: url(./images/website\ image\ 1_24.01.jpg);
     color: #fff;
 }
+@media (max-width: 500px){
+    .modalPartnership{
+        background-image: url(./images/website\ image\ 1_resize_max.jpg);
+    }
+}
 .modalPartnership{
-    background-image: url(./images/pexels-andrea-piacquadio-3830752.jpg);
+    background-image: url(./images/pexels-andrea-piacquadio-resize.jpg);
     color: #fff;
 }
 @media (max-width: 992px){
     .modalPartnership{
-        background-image: url(./images/pexels-andrea-piacquadio-crop.jpg);
+        background-image: url(./images/pexels-andrea-piacquadio-crop-resize.jpg);
     }
 }
 .modalPlanet{
-    background-image: url(./images/pexels-marina-lite.jpg);
+    background-image: url(./images/pexels-marina-lite-resize.jpg);
     color: #fff;
 }
 @media (max-width: 1200px){
     .modalPlanet{
-        background-image: url(./images/pexels-rdne-stock-project-6936078.jpg);
+        background-image: url(./images/pexels-rdne-stock-project-resize.jpg);
     }
 }
 .modalProcess{
-    background-image: url(./images/fashion-designer-mdl2.jpg);
+    background-image: url(./images/fashion-designer-mdl2-resize.jpg);
     color: #fff;
 }
 @media (max-width: 992px){
     .modalProcess{
-        background-image: url(./images/fashion-designer-modal.jpg);
+        background-image: url(./images/fashion-designer-modal-resize.jpg);
     }
 }
 .modalPurpose{
-    background-image: url(./images/creative-woman-modal.jpg);
+    background-image: url(./images/creative-woman-modal-resize.jpg);
     color: #fff;
 }
 @media (max-width: 992px){
     .modalPurpose{
-        background-image: url(./images/creative-woman-modal-crop.jpg);
+        background-image: url(./images/creative-woman-modal-crop-resize.jpg);
     }
 }
 .modalProfit{
-    background-image: url(./images/pexels-tima-miroshnichenko-6693655.jpg);
+    background-image: url(./images/pexels-tima-resize.jpg);
     color: #fff;
 }
 @media (max-width: 992px){
     .modalProfit{
-        background-image: url(./images/pexels-tima-miroshnichenko-crop.jpg);
+        background-image: url(./images/pexels-tima-crop-resize.jpg);
     }
 }
 /* .modal-body{
@@ -203,9 +208,13 @@ h1,h2,h3,h4,h5,h6 {
 
 @media(max-width: 600px)
     {
-        .background-image
+        .background-image1
         {
-            content:url(images/woolen-crop-by-ai.jpg);
+            content:url(images/woolen-blue-jeans-crop\ edited\ 24.01.24.jpg);
+        }
+        .background-image2
+        {
+            content:url(images/logotech\ Background\ crop\ edited\ 24.01.24.jpg);
         }
 
     }
@@ -464,6 +473,11 @@ h1,h2,h3,h4,h5,h6 {
     padding-top: 5rem;
     padding-bottom: 5rem;
     background-color: #d8d9da;
+}
+
+.babyProduct{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 footer {
