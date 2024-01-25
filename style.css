@@ -68,6 +68,16 @@ h1,h2,h3,h4,h5,h6 {
 
 /* Second Navbar */
 
+.secondNav{
+    background-color: #102c57;
+    padding: 10px;
+}
+@media (max-width: 764px){
+    .secondNav{
+        padding: 5px;
+    }
+}
+
 .nav-color {
     color: #fff!important;
     font-family: 'roboto', sans-serif;
@@ -108,7 +118,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 .modal-body{
     background-color: #d8d9da;
-    font-size: x-large;
+    font-size: medium;
     text-align: justify;
     margin-top: -1px;
 }
@@ -226,7 +236,12 @@ h1,h2,h3,h4,h5,h6 {
 .about-us{
     background-color: #EEEEEE;   /* #d8d9da */
 }
-
+@media (min-width : 767px){
+    .about-us{
+        padding-bottom: 100px!important;
+    }
+    
+}
 .world-image{
     background-color: black;
 }
@@ -475,8 +490,8 @@ h1,h2,h3,h4,h5,h6 {
     background-color: #d8d9da;
 }
 
-.babyProduct{
-    padding-top: 2rem;
+.footerThin{
+    padding-top: 3rem;
     padding-bottom: 2rem;
 }
 
