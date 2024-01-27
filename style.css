@@ -238,7 +238,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 @media (min-width : 767px){
     .about-us{
-        padding-bottom: 100px!important;
+        padding-bottom: 200px!important;
     }
     
 }
@@ -259,6 +259,20 @@ h1,h2,h3,h4,h5,h6 {
     text-align: justify;
 }
 
+@media ( min-width: 360px) and (max-width:421px){
+    .lead {
+        font-size: 1rem;
+    }
+   
+}
+
+@media (max-width: 360px){
+    .lead {
+        font-size: 0.85rem;
+    }
+   
+}
+
 /* Why Us  */
 
 .feature-icon {
@@ -270,12 +284,17 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: 700;
 }
 
+.wuPara{
+    text-align: justify;
+}
+
 /* Career */
 
 .cwu{
     color: #db1a0d;
     text-align: center;
 }
+
 .wwu{
     width: 44%;
     margin-right: 4.45vw;
