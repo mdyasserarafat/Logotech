@@ -101,9 +101,15 @@ h1,h2,h3,h4,h5,h6 {
     color: red;
     font-weight: 500;
 }
+.dropdown-item:hover{
+    color: red;
+}
 .nested-link{
     text-decoration: none!important;
     color: black;
+}
+.nested-link:hover{
+    color: blue;
 }
 .nav{
     position: relative;
@@ -238,7 +244,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 @media (min-width : 767px){
     .about-us{
-        padding-bottom: 200px!important;
+        padding-bottom: 175px!important;
     }
     
 }
