@@ -51,11 +51,11 @@ h1,h2,h3,h4,h5,h6 {
 
 .me-auto {
     margin-right: auto!important;
-    margin-left: auto;
+    margin-left: 7vw;
     flex-wrap: wrap!important;
 }
 .nav-link {
-    padding: 0 25px!important;
+    padding: 0 1.25vw!important;
     font-family: 'montserrat', sans-serif;
     font-weight: 600;
 }
@@ -123,10 +123,12 @@ h1,h2,h3,h4,h5,h6 {
    
 }
 .modal-body{
-    background-color: #d8d9da;
+    /* background-color: #d8d9da; */
     font-size: medium;
+    font-weight: 600;
     text-align: justify;
     margin-top: -1px;
+    color: #0A1D56;
 }
 @media (max-width: 992px){
     .modal-body{
@@ -134,8 +136,12 @@ h1,h2,h3,h4,h5,h6 {
     }
 }
 .modalPeople{
-    background-image: url(./images/website\ image\ 1_24.01.jpg);
-    color: #fff;
+    background-image: url(./images/people\ pic\ for\ website\ 800\ x\ 200.jpg);
+}
+@media (max-width: 992px){
+    .modalPeople{
+        background-image: url(./images/people\ pic\ for\ website\ 500\ x\ 350.jpg);
+    }
 }
 @media (max-width: 500px){
     .modalPartnership{
@@ -143,48 +149,43 @@ h1,h2,h3,h4,h5,h6 {
     }
 }
 .modalPartnership{
-    background-image: url(./images/pexels-andrea-piacquadio-resize.jpg);
-    color: #fff;
+    background-image: url(./images/partnership\ pic\ for\ website\ 800\ x\ 200.jpg);
 }
 @media (max-width: 992px){
     .modalPartnership{
-        background-image: url(./images/pexels-andrea-piacquadio-crop-resize.jpg);
+        background-image: url(./images/partnership\ pic\ for\ website\ 500\ x\ 350.jpg);
     }
 }
 .modalPlanet{
-    background-image: url(./images/pexels-marina-lite-resize.jpg);
-    color: #fff;
+    background-image: url(./images/planet\ pic\ for\ website\ 800\ x\ 200.jpg);
 }
-@media (max-width: 1200px){
+@media (max-width: 992px){
     .modalPlanet{
-        background-image: url(./images/pexels-rdne-stock-project-resize.jpg);
+        background-image: url(./images/planet\ pic\ for\ website\ 500\ x\ 350.jpg);
     }
 }
 .modalProcess{
-    background-image: url(./images/fashion-designer-mdl2-resize.jpg);
-    color: #fff;
+    background-image: url(./images/process\ pic\ for\ website\ 800\ x\ 200.jpg);
 }
 @media (max-width: 992px){
     .modalProcess{
-        background-image: url(./images/fashion-designer-modal-resize.jpg);
+        background-image: url(./images/profit\ pic\ for\ website\ 500\ x\ 350.jpg);
     }
 }
 .modalPurpose{
-    background-image: url(./images/creative-woman-modal-resize.jpg);
-    color: #fff;
+    background-image: url(./images/purpose\ pic\ for\ website\ 800\ x\ 200.jpg);
 }
 @media (max-width: 992px){
     .modalPurpose{
-        background-image: url(./images/creative-woman-modal-crop-resize.jpg);
+        background-image: url(./images/purpose\ pic\ for\ website\ 500\ x\ 350.jpg);
     }
 }
 .modalProfit{
-    background-image: url(./images/pexels-tima-resize.jpg);
-    color: #fff;
+    background-image: url(./images/profit\ pic\ for\ website\ 800\ x\ 200.jpg);
 }
 @media (max-width: 992px){
     .modalProfit{
-        background-image: url(./images/pexels-tima-crop-resize.jpg);
+        background-image: url(./images/profit\ pic\ for\ website\ 500\ x\ 350.jpg);
     }
 }
 /* .modal-body{
@@ -209,7 +210,7 @@ h1,h2,h3,h4,h5,h6 {
     line-height: inherit;
     font-weight: 900;
     margin: 11%;
-    margin-left: 15%;
+    margin-left: 10%;
     z-index: 10;
 }
 
@@ -222,7 +223,7 @@ h1,h2,h3,h4,h5,h6 {
     }
 }
 
-@media(max-width: 600px)
+/* @media(max-width: 600px)
     {
         .background-image1
         {
@@ -233,7 +234,7 @@ h1,h2,h3,h4,h5,h6 {
             content:url(images/logotech\ Background\ crop\ edited\ 24.01.24.jpg);
         }
 
-    }
+    } */
 
 
 
