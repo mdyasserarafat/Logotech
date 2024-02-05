@@ -223,18 +223,18 @@ h1,h2,h3,h4,h5,h6 {
     }
 }
 
-/* @media(max-width: 600px)
+@media(max-width: 600px)
     {
+        .background-image
+        {
+            content:url(images/fireFly_crop1.jpg );
+        }
         .background-image1
         {
-            content:url(images/woolen-blue-jeans-crop\ edited\ 24.01.24.jpg);
-        }
-        .background-image2
-        {
-            content:url(images/logotech\ Background\ crop\ edited\ 24.01.24.jpg);
+            content:url(images/fireFly_crop2.jpg);
         }
 
-    } */
+    }
 
 
 
@@ -624,7 +624,7 @@ footer {
 }
 
 a {
-    color: #102C57; /* #102C57 */
+    color: #102C57;
     text-decoration: none;
     background-color: transparent;
 }
@@ -660,8 +660,12 @@ a {
 .bi:hover {
     color: #F99417; /* #e79b0d */
 }
-
 ul {
     margin-top: 0rem;
     margin-bottom: 1rem;
 }
+
+/* Product page off canvas navbar */
+.dropdown-menu{
+    border: none;
+  }
