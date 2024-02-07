@@ -253,6 +253,12 @@ h1,h2,h3,h4,h5,h6 {
     background-color: black;
 }
 
+@media (max-width: 550px){
+    .world-image{
+        margin-top: -30px;
+}
+}
+
 @media (min-width: 767px){
     .world-image{
         height: 300px;
@@ -288,7 +294,7 @@ h1,h2,h3,h4,h5,h6 {
     border-radius: 0.75rem;
 }
 .why-us{
-    font-weight: 700;
+    font-weight: 700!important;
 }
 
 .wuPara{
@@ -669,3 +675,15 @@ ul {
 .dropdown-menu{
     border: none;
   }
+
+.dropdown-menu[data-bs-popper] {
+    margin-left: 30px;
+    line-height: 2rem;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.navbar-toggler {
+    border: none;
+}
