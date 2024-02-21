@@ -52,7 +52,7 @@
   </head>
   <body>
     <!-- First Navbar     -->
-    <!-- <nav
+    <nav
       class="navbar navbar-expand-lg fixed-top nav-product"
       style="background-color: #EEEEEE; padding: 2px;"
     >
@@ -97,101 +97,123 @@
           </ul>
         </div>
       </div>
-    </nav> -->
-
-    <nav class="navbar bg-body-tertiary fixed-top"
-         style="background-color: #EEEEEE!important;">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img
-          class="navbrand-img"
-          src="./images/logotech logo 25.01.24.png"
-          alt="Logotech Brand Icon"
-          height="50"
-      /></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Products</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <!-- <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li> -->
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  By gender/age
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="./baby_clothes.html">Baby clothes</a></li>
-                  
-                  <li><a class="dropdown-item" href="#">Childrens wear</a></li>
-                 
-                  <li><a class="dropdown-item" href="#">Mens wear</a></li>
-                 
-                  <li><a class="dropdown-item" href="./womens_wear.html">Womens wear</a></li>
-                </ul>
-              </li><br><br>
-
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  By setting
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Workwear [Smart]&nbsp&nbsp</a></li>                
-                  <li><a class="dropdown-item" href="#">Casual wear</a></li>                
-                  <li><a class="dropdown-item" href="#">Formal wear</a></li>                  
-                  <li><a class="dropdown-item" href="#">Sports wear</a></li>
-                </ul>
-              </li><br><br>
-
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  By usage
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Yoga clothes</a></li>
-                  
-                  <li><a class="dropdown-item" href="#">Rain wear</a></li>
-                  
-                  <li><a class="dropdown-item" href="#">Swimwear</a></li>
-                  
-                  <li><a class="dropdown-item" href="#">Maternitywear</a></li>
-                </ul>
-              </li><br><br>
-
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  By the fabric
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Knitted</a></li>
-                  <!-- <li>
-                    <hr class="dropdown-divider">
-                  </li> -->
-                  <li><a class="dropdown-item" href="#">woven</a></li>
-                </ul>
-              </li>
-
-            </ul>
-          </div>
-        </div>
-      </div>
     </nav>
+
+    <!-- Second Navbar  -->
+    <!-- style="background-color: #102c57; padding: 11px" -->
+    <ul
+      class="nav justify-content-center secondNav"
+      style="margin-top: 61px;"
+    >
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle nav-color"
+          href="#"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Products
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item">By gender/age :</a></li>
+          <ul style="list-style-type: disc">
+            <li>
+              <a href="./baby_clothes.html" class="nested-link"
+                >Baby clothes</a
+              >
+            </li>
+            <li><a href="#" class="nested-link">Childrens wear</a></li>
+            <li><a href="#" class="nested-link">Mens wear</a></li>
+            <li><a href="./womens_wear.html" class="nested-link">Womens wear</a></li>
+            <hr class="dropdown-divider">
+          </ul>
+          <li><a class="dropdown-item">By setting :</a></li>
+          <ul style="list-style-type: disc">
+            <li><a href="#" class="nested-link">Workwear [Smart]&nbsp&nbsp</a></li>
+            <li><a href="#" class="nested-link">Casual wear</a></li>
+            <li><a href="#" class="nested-link">Formal wear</a></li>
+            <li><a href="#" class="nested-link">Sports wear</a></li>
+            <hr class="dropdown-divider">
+          </ul>
+          <li><a class="dropdown-item">By usage :</a></li>
+          <ul style="list-style-type: disc">
+            <li><a href="#" class="nested-link">Yoga clothes</a></li>
+            <li><a href="#" class="nested-link">Rain wear</a></li>
+            <li><a href="#" class="nested-link">Swimwear</a></li>
+            <li><a href="#" class="nested-link">Maternitywear</a></li>
+            <li>
+              <a href="#" class="nested-link"
+                >Special Needs <br />
+                [Functional]
+              </a>
+              <!-- [Functional] -->
+            </li>
+            <li><a href="#" class="nested-link">Accessories</a></li>
+            <hr class="dropdown-divider">
+          </ul>
+          <li><a class="dropdown-item">By the fabric :</a></li>
+          <ul style="list-style-type: disc">
+            <li><a href="#" class="nested-link">Knitted</a></li>
+            <li><a href="#" class="nested-link">Woven</a></li>
+          </ul>
+        </ul>
+      </li>
+
+      <li class="nav-item">
+        <a
+          class="nav-link nav-color"
+          href="./people.html"
+          >People</a
+        >
+      </li>
+
+      <li class="nav-item">
+        <a
+          class="nav-link nav-color"
+          href="./planet.html"
+          >Planet</a
+        >
+      </li>
+
+      <li class="nav-item">
+        <a
+          class="nav-link nav-color"
+          href="./partnership.html"
+          >Partnership</a>
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link nav-color"
+          href="./process.html"
+          >Process</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link nav-color"
+          href="./purpose.html"
+          >Purpose</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link nav-color"
+          href="./profit.html"
+          >Profit</a
+        >
+      </li>
+    </ul>
+
+    
 
     <!-- Page Title -->
 
     <main>
-      <section class="mt-4 pt-4 mt-lg-2 pt-lg-2 pb-1 text-center container">
-        <div class="row py-lg-5">
+      <section class="mt-2 pt-2 mt-lg-1 pt-lg-1 pb-1 text-center container">
+        <div class="row">
           <div class="col-lg-6 col-md-8 mx-auto">
-            <h1 class="fw-light mt-1 pt-5 pb-3 border-bottom border-secondary-subtle">Women's Wear</h1>
+            <h1 class="fw-light mt-3 pt-3 pb-3 border-bottom border-secondary-subtle">Women's Wear</h1>
             <p class="lead text-body-secondary pt-4">
                 <!-- Discover women's resort, beach, party and western wear by <a href="https://change-india.com/" class="ww" target="_blank">CHANGE<span style="color: red;">!</span> </a>– 
                 redefine style & embrace comfort. 
@@ -469,3 +491,84 @@
     ></script>
   </body>
 </html>
+
+
+<!-- OffCanvas nav -->
+
+<!-- <nav class="navbar bg-body-tertiary fixed-top"
+         style="background-color: #EEEEEE!important;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img
+          class="navbrand-img"
+          src="./images/logotech logo 25.01.24.png"
+          alt="Logotech Brand Icon"
+          height="50"
+      /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Products</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  By gender/age
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./baby_clothes.html">Baby clothes</a></li>
+                  
+                  <li><a class="dropdown-item" href="#">Childrens wear</a></li>
+                 
+                  <li><a class="dropdown-item" href="#">Mens wear</a></li>
+                 
+                  <li><a class="dropdown-item" href="./womens_wear.html">Womens wear</a></li>
+                </ul>
+              </li><br><br>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  By setting
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Workwear [Smart]&nbsp&nbsp</a></li>                
+                  <li><a class="dropdown-item" href="#">Casual wear</a></li>                
+                  <li><a class="dropdown-item" href="#">Formal wear</a></li>                  
+                  <li><a class="dropdown-item" href="#">Sports wear</a></li>
+                </ul>
+              </li><br><br>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  By usage
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Yoga clothes</a></li>
+                  
+                  <li><a class="dropdown-item" href="#">Rain wear</a></li>
+                  
+                  <li><a class="dropdown-item" href="#">Swimwear</a></li>
+                  
+                  <li><a class="dropdown-item" href="#">Maternitywear</a></li>
+                </ul>
+              </li><br><br>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  By the fabric
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Knitted</a></li>
+                  
+                  <li><a class="dropdown-item" href="#">woven</a></li>
+                </ul>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav> -->

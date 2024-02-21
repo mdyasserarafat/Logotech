@@ -117,13 +117,12 @@ h1,h2,h3,h4,h5,h6 {
     margin-top: 76px;
 }
 
-.modal-header{
+/* .modal-header{
     background-color: #102c57;
     color: #fff;
    
 }
 .modal-body{
-    /* background-color: #d8d9da; */
     font-size: medium;
     font-weight: 600;
     text-align: justify;
@@ -187,7 +186,7 @@ h1,h2,h3,h4,h5,h6 {
     .modalProfit{
         background-image: url(./images/profit\ pic\ for\ website\ 500\ x\ 350.jpg);
     }
-}
+} */
 /* .modal-body{
     font-size: 20px;
     text-align: justify;
@@ -195,10 +194,14 @@ h1,h2,h3,h4,h5,h6 {
     top: 50px;
     color: #d8d9da;
 } */
-.modal-content{
+/* .modal-content{
     border-radius: 1rem;
-}
+} */
 
+.active-page{
+    box-shadow: 0 0 20px white;
+    /* background-color: grey; */
+}
 
 /* home-background */
 
