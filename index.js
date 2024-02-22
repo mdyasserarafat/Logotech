@@ -29,9 +29,9 @@
 //   });
 
 
-  $(".secondNav .nav-link").click(function(){
-      $(this).addClass("active-page"); 
-});
+//   $(".secondNav .nav-link").click(function(){
+//       $(this).addClass("active-page"); 
+// });
 
 // $('.secondNav .nav-link').filter(function(){
 //   return this.href === location.href;
