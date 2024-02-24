@@ -269,7 +269,7 @@ h1,h2,h3,h4,h5,h6 {
     }
 }
 
-.lead {
+.au-para {
     font-size: 1.20rem;
     font-weight: 300;
     text-align: justify;
@@ -378,9 +378,10 @@ h1,h2,h3,h4,h5,h6 {
   
   .testimonial-text{
     text-align: center;
-    font-size: 3rem;
+    font-size: 1.2rem!important;
     line-height: 1.5;
-    font-weight: 900;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
  }
   .testimony{
     padding: 7% 15%;

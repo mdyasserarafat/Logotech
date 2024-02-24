@@ -33,44 +33,73 @@
         .featurette-divider {
              margin: 5rem 0;
         }
+        @media(min-width: 500px) and (max-width:993px){
+          .featurette-divider {
+             margin: 3rem 0;
+        }
+        }
+        @media(max-width:500px){
+          .featurette-divider {
+             margin: 2rem 0;
+        }
+        }
 
-        @media (min-width: 62em){
+        @media (min-width: 1200px){
         .featurette-heading {
             margin-top: 6rem;
-        }
-        }
-
-        @media (min-width: 40em){
-          .featurette-heading {
             font-size: 38px;
         }
         }
+        @media (min-width:992px) and (max-width: 1200px){
+        .featurette-heading {
+            margin-top: 3.5rem;
+            font-size: 35px;
+        }
+        }
+        @media(min-width: 767px) and (max-width: 992px){
+        .featurette-heading {
+            margin-top: 2.5rem;
+            font-size: 25px;
+        }
+        .p-para{
+          font-size: 13px!important;
+        }
+        }
+    .p-para{
+      font-size: 1rem;
+    }
+
     .featurette-heading {
         letter-spacing: -.05rem;
     }
     
-  .people-heading {
+  .p-heading {
       /* font-family: 'montserrat', sans-serif;
       font-size: 4vw;
       line-height: inherit;
       font-weight: 900; */
       text-align: center;
-      font-size: 50px;
+      font-size: 45px;
   }
 
-  @media (max-width:500px){
-      .people-heading{
-          font-size: 10vw;
-          line-height: inherit;
-          margin-top: 18%;
-          margin-left: 12%;
+  @media (min-width:767px) and (max-width:1200px){
+      .p-heading{
+          font-size: 38px;
+          /* line-height: inherit; */
+          /* margin-top: 18%;
+          margin-left: 12%; */
       }
   }
-  .people-paragraph {
-      /* font-family: 'montserrat', sans-serif; */
-      /* font-size: 1.2vw; */
-      line-height: inherit;
-      z-index: 10;
+
+  @media (min-width: 425px) and (max-width: 767px){
+      .p-heading{
+          font-size: 29px;
+      }
+  }
+  @media (max-width: 425px){
+      .p-heading{
+          font-size: 21px;
+      }
   }
     </style>
   </head>
@@ -273,8 +302,8 @@
 
         <hr class="featurette-divider">
 
-        <h1 class="people-heading fw-normal lh-2">People : <span class="text-body-secondary"> Empowering Sustainable Communities</span></h1><br>
-        <p class="lead">At Logotech, our foremost focus is on people. We prioritize the well-being of our employees, cultivate a secure and inclusive work environment, 
+        <h1 class="p-heading fw-normal lh-2">People : <span class="text-body-secondary"> Empowering Sustainable Communities</span></h1><br>
+        <p class="lead p-para">At Logotech, our foremost focus is on people. We prioritize the well-being of our employees, cultivate a secure and inclusive work environment, 
           and actively contribute to the communities we engage with. Come be a part of our mission to create a sustainable future, where individuals flourish 
           and collectively make a positive difference.</p>
 
@@ -283,7 +312,7 @@
           <div class="row featurette">
             <div class="col-md-5">
               <h2 class="featurette-heading fw-normal lh-2 text-body-secondary">Crafted with Care, Seam by Seam</h2>
-              <p class="lead">Step into the heart of our garment factory's stitching department, where skilled hands weave threads into wearable masterpieces.
+              <p class="lead p-para">Step into the heart of our garment factory's <span class="fw-bold">stitching department</span>, where skilled hands weave threads into wearable masterpieces.
               </p>
             </div>
             <div class="col-md-7">
@@ -296,7 +325,7 @@
           <div class="row featurette">
             <div class="col-md-5 order-md-2">
               <h2 class="featurette-heading fw-normal lh-2 text-body-secondary">Precision in Progress</h2>
-              <p class="lead">Witness the art of fabric transformation in our cutting department, where skilled hands shape the foundation for exceptional garments.</p>
+              <p class="lead p-para">Witness the art of fabric transformation in our <span class="fw-bold">cutting department</span>, where skilled hands shape the foundation for exceptional garments.</p>
             </div>
             <div class="col-md-7 order-md-1">
                 <img src="images/PEOPLE/cutting_500.jpg" alt="" class="img-fluid">
@@ -308,7 +337,7 @@
           <div class="row featurette">
             <div class="col-md-5">
               <h2 class="featurette-heading fw-normal lh-2 text-body-secondary">Where Craftsmanship Meets Precision</h2>
-              <p class="lead">Behind the Scenes in Our Finishing Department, where every stitch is perfected to create garments of unparalleled quality.</p>
+              <p class="lead p-para">Behind the Scenes in Our <span class="fw-bold">Finishing Department</span>, where every stitch is perfected to create garments of unparalleled quality.</p>
             </div>
             <div class="col-md-7">
               <img src="images/PEOPLE/finishing_500.jpg" alt="" class="img-fluid">
@@ -320,7 +349,7 @@
           <div class="row featurette">
             <div class="col-md-5 order-md-2">
               <h2 class="featurette-heading fw-normal lh-2 text-body-secondary">From Wrinkles to Elegance</h2>
-              <p class="lead">Unveiling the magic behind the scenes in our Ironing and Packing Department, where each garment is meticulously pressed and packaged, ready to make a statement.</p>
+              <p class="lead p-para">Unveiling the magic behind the scenes in our <span class="fw-bold">Ironing and Packing Department</span>, where each garment is meticulously pressed and packaged, ready to make a statement.</p>
             </div>
             <div class="col-md-7 order-md-1">
                 <img src="images/PEOPLE/iron_man_500.jpg" alt="" class="img-fluid">
