@@ -692,3 +692,74 @@ ul {
 .navbar-toggler {
     border: none;
 }
+
+/* 7 P'S */
+
+
+.featurette-divider {
+    margin: 5rem 0;
+}
+@media(min-width: 500px) and (max-width:993px){
+ .featurette-divider {
+    margin: 3rem 0;
+}
+}
+@media(max-width:500px){
+ .featurette-divider {
+    margin: 2rem 0;
+}
+}
+
+@media (min-width: 1200px){
+.featurette-heading {
+   margin-top: 6rem;
+   font-size: 38px;
+}
+}
+@media (min-width:992px) and (max-width: 1200px){
+.featurette-heading {
+   margin-top: 3.5rem;
+   font-size: 35px;
+}
+}
+@media(min-width: 767px) and (max-width: 992px){
+.featurette-heading {
+   margin-top: 2.5rem;
+   font-size: 25px;
+}
+.p-para{
+ font-size: 13px!important;
+}
+}
+.p-para{
+ font-size: 1rem;
+}
+
+.featurette-heading {
+   letter-spacing: -.05rem;
+}
+
+.p-heading {
+   text-align: center;
+   font-size: 45px;
+}
+
+@media (min-width:767px) and (max-width:1200px){
+.p-heading{
+ font-size: 38px;
+ /* line-height: inherit; */
+ /* margin-top: 18%;
+ margin-left: 12%; */
+}
+}
+
+@media (min-width: 425px) and (max-width: 767px){
+.p-heading{
+ font-size: 29px;
+}
+}
+@media (max-width: 425px){
+.p-heading{
+ font-size: 21px;
+}
+}
