@@ -697,16 +697,18 @@ ul {
 
 
 .featurette-divider {
-    margin: 5rem 0;
+    margin: 5rem 45%;
+    border: 5px dotted grey;
+    border-bottom: none;
 }
 @media(min-width: 500px) and (max-width:993px){
  .featurette-divider {
-    margin: 3rem 0;
+    margin: 3rem 45%;
 }
 }
 @media(max-width:500px){
  .featurette-divider {
-    margin: 2rem 0;
+    margin: 2rem 43%;
 }
 }
 
@@ -733,6 +735,7 @@ ul {
 }
 .p-para{
  font-size: 1rem;
+ text-align: justify;
 }
 
 .featurette-heading {
@@ -762,4 +765,11 @@ ul {
 .p-heading{
  font-size: 21px;
 }
+}
+
+/* Investors */
+
+.i-para{
+    font-size: 15px;
+    text-align: justify;
 }
